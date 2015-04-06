@@ -1,0 +1,411 @@
+TSocketClient
+v7
+r0
+t294644189.458755
+cCheck dependencies
+cProcessInfoPlistFile /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/Info.plist SocketClient-Info.plist
+cCompileXIB /Users/skan/Documents/SocketClient/MainWindow.xib
+cProcessPCH /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-fwjopjuqxxpnemdqsgxifnppkush/SocketClient_Prefix.pch.gch SocketClient_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/main.o /Users/skan/Documents/SocketClient/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/SocketClientAppDelegate.o /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/ClinetConnector.o /Users/skan/Documents/SocketClient/Classes/ClinetConnector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient normal i386
+cGenerateDSYMFile /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app.dSYM /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient
+cTouch /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004B24AB0500000000000000EE
+t1260694277
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004ABDC8D300000000001097C0
+t1253951699
+s1087424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004ABDC89C00000000000004CF
+t1253951644
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h
+c000000004ABDC89C00000000000060BB
+t1253951644
+s24763
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
+
+N/Users/skan/Documents/SocketClient/Classes/ClinetConnector.h
+c000000004BDFA52D0000000000000246
+t1272948013
+s582
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m
+c000000004BDFB2290000000000000F0A
+t1272951337
+s3850
+i"ClinetConnector.h"
+i<CFNetwork/CFNetwork.h>
+i<sys/socket.h>
+i<netinet/in.h>
+
+N/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h
+c000000004BDFAF23000000000000031F
+t1272950563
+s799
+i<UIKit/UIKit.h>
+i"ClinetConnector.h"
+
+N/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m
+c000000004BDFAFF800000000000005B1
+t1272950776
+s1457
+i"SocketClientAppDelegate.h"
+i"ClinetConnector.h"
+
+N/Users/skan/Documents/SocketClient/MainWindow.xib
+c000000004BDFB225000000000000688D
+t1272951333
+s26765
+
+N/Users/skan/Documents/SocketClient/SocketClient_Prefix.pch
+c000000004BD8CE0C00000000000000C1
+t1272499724
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app
+t1272951338
+s204
+
+N/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app.dSYM
+t1272951338
+s102
+
+N/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/Info.plist
+t1272862040
+s584
+
+N/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/MainWindow.nib
+t1272951337
+s4171
+
+N/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/PkgInfo
+t1272862040
+s8
+
+N/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient
+t1272951338
+s26724
+
+N/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/ClinetConnector.o
+t1272951338
+s17908
+
+N/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/SocketClient.LinkFileList
+c000000004BDE5558000000000000019E
+t1272862040
+s414
+
+N/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/SocketClientAppDelegate.o
+t1272950777
+s29820
+
+N/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/main.o
+t1272862041
+s5948
+
+N/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/StaticAnalyzer/normal/i386/ClinetConnector.plist
+t1272883949
+s275
+
+N/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/StaticAnalyzer/normal/i386/SocketClientAppDelegate.plist
+t1272883918
+s275
+
+N/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/StaticAnalyzer/normal/i386/main.plist
+t1272883918
+s275
+
+N/Users/skan/Documents/SocketClient/main.m
+c000000004BD8CE0C000000000000016E
+t1272499724
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-fwjopjuqxxpnemdqsgxifnppkush/SocketClient_Prefix.pch.gch
+t1272862041
+s13034960
+
+N/var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-hghlenehgpnozdfdavsrlzkqxzdu/SocketClient_Prefix.pch.pth
+t1272883918
+s1729068
+
+NSocketClient-Info.plist
+c000000004BD8CE0C000000000000038D
+t1272499724
+s909
+
+CAnalyze /Users/skan/Documents/SocketClient/Classes/ClinetConnector.m
+s294576749.779064
+e294576749.819373
+r1
+xAnalyze
+x/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:128:3: warning: NSStream  may not respond to 'write:maxLength:'
+o                 [outstream write:(const uint8_t *)[msg  UTF8String] maxLength:(NSUInteger)[msg lengthOfBytesUsingEncoding:NSUTF8StringEncoding]];
+o                 ^
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:180:13: warning: NSStream  may not respond to 'read:maxLength:'
+o         bytesRead =[instream read:buffer maxLength:sizeof(buffer)];
+o                    ^
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:189:8:{189:8-189:11}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o         NSLog(msg);
+o               ^~~
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:200:9:{200:9-200:28}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o                 NSLog([error description]);
+o                       ^~~~~~~~~~~~~~~~~~~
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:205:8:{205:8-205:19}: warning: incompatible pointer types passing 'char [10]', expected 'NSString *'
+o         NSLog("OnEOF....");
+o               ^~~~~~~~~~~
+o5 diagnostics generated.
+lSLF07#2@68"Analyze /Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294576749#294576749#0(1224"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:128:3: warning: NSStream  may not respond to 'write:maxLength:'                 [outstream write:(const uint8_t *)[msg  UTF8String] maxLength:(NSUInteger)[msg lengthOfBytesUsingEncoding:NSUTF8StringEncoding]];                 ^/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:180:13: warning: NSStream  may not respond to 'read:maxLength:'         bytesRead =[instream read:buffer maxLength:sizeof(buffer)];                    ^/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:189:8:{189:8-189:11}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]         NSLog(msg);               ^~~/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:200:9:{200:9-200:28}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]                 NSLog([error description]);                       ^~~~~~~~~~~~~~~~~~~/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:205:8:{205:8-205:19}: warning: incompatible pointer types passing 'char [10]', expected 'NSString *'         NSLog("OnEOF....");               ^~~~~~~~~~~5 diagnostics generated.0(0#0#60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m4300885448#1954"    cd /Users/skan/Documents/SocketClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-generated-files.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-own-target-headers.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-all-target-headers.hmap -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-project-headers.hmap -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -I/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/include -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources/i386 -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources -include /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-hghlenehgpnozdfdavsrlzkqxzdu/SocketClient_Prefix.pch --analyze /Users/skan/Documents/SocketClient/Classes/ClinetConnector.m -o /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/StaticAnalyzer/normal/i386/ClinetConnector.plist0#
+
+CAnalyze /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m
+s294576718.092385
+e294576718.165297
+r1
+xAnalyze
+x/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:32:2:{32:2-32:43}: warning: method '-Connect:port:' not found (return type defaults to 'id')
+o         [conn Connect:@"61.74.231.65" port:10024];      
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:37:2:{37:2-37:28}: warning: method '-Send:' not found (return type defaults to 'id')
+o         [conn Send:@"Hello World"];
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:42:2:{42:2-42:19}: warning: method '-Disconnect' not found (return type defaults to 'id')
+o         [conn Disconnect];
+o         ^~~~~~~~~~~~~~~~~
+oIn file included from /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:9:
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h:20:48: warning: property 'conn' requires method 'conn' to be defined - use @synthesize, @dynamic or provide a method implementation
+o @property (nonatomic, retain) ClinetConnector *conn;
+o                                                ^
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:12:1: note: implementation is here
+o @implementation SocketClientAppDelegate
+o ^
+oIn file included from /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:9:
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h:20:48: warning: property 'conn' requires method 'setConn:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o @property (nonatomic, retain) ClinetConnector *conn;
+o                                                ^
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:12:1: note: implementation is here
+o @implementation SocketClientAppDelegate
+o ^
+o7 diagnostics generated.
+lSLF07#2@76"Analyze /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294576718#294576718#0(1835"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:32:2:{32:2-32:43}: warning: method '-Connect:port:' not found (return type defaults to 'id')         [conn Connect:@"61.74.231.65" port:10024];               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:37:2:{37:2-37:28}: warning: method '-Send:' not found (return type defaults to 'id')         [conn Send:@"Hello World"];         ^~~~~~~~~~~~~~~~~~~~~~~~~~/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:42:2:{42:2-42:19}: warning: method '-Disconnect' not found (return type defaults to 'id')         [conn Disconnect];         ^~~~~~~~~~~~~~~~~In file included from /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:9:/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h:20:48: warning: property 'conn' requires method 'conn' to be defined - use @synthesize, @dynamic or provide a method implementation @property (nonatomic, retain) ClinetConnector *conn;                                                ^/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:12:1: note: implementation is here @implementation SocketClientAppDelegate ^In file included from /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:9:/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h:20:48: warning: property 'conn' requires method 'setConn:' to be defined - use @synthesize, @dynamic or provide a method implementation @property (nonatomic, retain) ClinetConnector *conn;                                                ^/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:12:1: note: implementation is here @implementation SocketClientAppDelegate ^7 diagnostics generated.0(0#0#68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m4300885448#1970"    cd /Users/skan/Documents/SocketClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-generated-files.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-own-target-headers.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-all-target-headers.hmap -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-project-headers.hmap -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -I/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/include -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources/i386 -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources -include /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-hghlenehgpnozdfdavsrlzkqxzdu/SocketClient_Prefix.pch --analyze /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m -o /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/StaticAnalyzer/normal/i386/SocketClientAppDelegate.plist0#
+
+CAnalyze /Users/skan/Documents/SocketClient/main.m
+s294576718.090811
+e294576718.154823
+r1
+xAnalyze
+x/Users/skan/Documents/SocketClient/main.m
+lSLF07#2@49"Analyze /Users/skan/Documents/SocketClient/main.m294576718#294576718#0(0"0(0#0#41"/Users/skan/Documents/SocketClient/main.m4300885448#1924"    cd /Users/skan/Documents/SocketClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-generated-files.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-own-target-headers.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-all-target-headers.hmap -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-project-headers.hmap -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -I/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/include -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources/i386 -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources -include /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-hghlenehgpnozdfdavsrlzkqxzdu/SocketClient_Prefix.pch --analyze /Users/skan/Documents/SocketClient/main.m -o /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294644189#294644189#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/ClinetConnector.o /Users/skan/Documents/SocketClient/Classes/ClinetConnector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294644137.881211
+e294644138.003825
+r1
+xCompileC
+xbuild/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/ClinetConnector.o
+x/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector initWithIF:]':
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:28: warning: assignment from incompatible pointer type
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector Connect:port:]':
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:43: warning: invalid receiver type 'CFStringRef'
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:43: warning: unused variable 'size'
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector Send:]':
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:94: warning: 'NSStream' may not respond to '-write:maxLength:'
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:94: warning: (Messages without a matching method signature
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:94: warning: will be assumed to return 'id' and accept
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:94: warning: '...' as arguments.)
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector Disconnect]':
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:108: warning: invalid receiver type 'id*'
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector OnOpened]':
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:139: warning: invalid receiver type 'id*'
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector OnHasRead]':
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:148: warning: 'NSStream' may not respond to '-read:maxLength:'
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:148: warning: assignment makes integer from pointer without a cast
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:151: warning: invalid receiver type 'id*'
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:157: warning: invalid receiver type 'id*'
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector OnError]':
+o/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:168: warning: invalid receiver type 'id*'
+lSLF07#2@68"Compile /Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#294644138#0(2287"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector initWithIF:]':/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:28: warning: assignment from incompatible pointer type/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector Connect:port:]':/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:43: warning: invalid receiver type 'CFStringRef'/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:43: warning: unused variable 'size'/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector Send:]':/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:94: warning: 'NSStream' may not respond to '-write:maxLength:'/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:94: warning: (Messages without a matching method signature/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:94: warning: will be assumed to return 'id' and accept/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:94: warning: '...' as arguments.)/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector Disconnect]':/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:108: warning: invalid receiver type 'id*'/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector OnOpened]':/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:139: warning: invalid receiver type 'id*'/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector OnHasRead]':/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:148: warning: 'NSStream' may not respond to '-read:maxLength:'/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:148: warning: assignment makes integer from pointer without a cast/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:151: warning: invalid receiver type 'id*'/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:157: warning: invalid receiver type 'id*'/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m: In function '-[ClinetConnector OnError]':/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m:168: warning: invalid receiver type 'id*'12(22@41"Assignment from incompatible pointer type294644137#108#116#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#28#0#28#0#41"assignment from incompatible pointer type0(22@35"Invalid receiver type 'CFStringRef'294644137#334#110#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#43#0#43#0#0"0(22@22"Unused variable 'size'294644137#444#97#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#43#0#43#0#19"unused variable '*'0(22@49"'NSStream' may not respond to '-write:maxLength:'294644137#643#124#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#94#0#94#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)294644137#767#120#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#94#0#94#0#0"0(22@27"Invalid receiver type 'id*'294644137#1205#103#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#108#0#108#0#0"0(22@27"Invalid receiver type 'id*'294644137#1413#103#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#139#0#139#0#0"0(22@48"'NSStream' may not respond to '-read:maxLength:'294644137#1622#124#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#148#0#148#0#26"'*' may not respond to '*'0(22@52"Assignment makes integer from pointer without a cast294644137#1746#128#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#148#0#148#0#0"0(22@27"Invalid receiver type 'id*'294644137#1874#103#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#151#0#151#0#0"0(22@27"Invalid receiver type 'id*'294644137#1977#103#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#157#0#157#0#0"0(22@27"Invalid receiver type 'id*'294644137#2184#103#0(6@60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m294644137#168#0#168#0#0"0(0#0#60"/Users/skan/Documents/SocketClient/Classes/ClinetConnector.m4300885448#1945"    cd /Users/skan/Documents/SocketClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-generated-files.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-own-target-headers.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-all-target-headers.hmap -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-project-headers.hmap -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -I/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/include -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources/i386 -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources -include /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-fwjopjuqxxpnemdqsgxifnppkush/SocketClient_Prefix.pch -c /Users/skan/Documents/SocketClient/Classes/ClinetConnector.m -o /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/ClinetConnector.o0#
+
+CCompileC build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/SocketClientAppDelegate.o /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294643576.798403
+e294643577.022062
+r1
+xCompileC
+xbuild/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/SocketClientAppDelegate.o
+x/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:9:
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h:25: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h:25: warning: assign attribute (default) not appropriate for non-gc object property 'connBtn'
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate applicationDidFinishLaunching:]':
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:22: warning: no '-initWithIF:' method found
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:22: warning: (Messages without a matching method signature
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:22: warning: will be assumed to return 'id' and accept
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:22: warning: '...' as arguments.)
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate buttonConnect:]':
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:36: warning: 'ClinetConnector' may not respond to '-Connect:port:'
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate buttonSend:]':
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:41: warning: format not a string literal and no format arguments
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:42: warning: 'ClinetConnector' may not respond to '-Send:'
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate buttonDisconnect:]':
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:47: warning: 'ClinetConnector' may not respond to '-Disconnect'
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate OnReceive:]':
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:53: warning: format not a string literal and no format arguments
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:56: warning: format not a string literal and no format arguments
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:58: warning: control reaches end of non-void function
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate OnError:]':
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:60: warning: format not a string literal and no format arguments
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:61: warning: control reaches end of non-void function
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate OnConnected]':
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:66: warning: control reaches end of non-void function
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate OnDisconnect]':
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:70: warning: control reaches end of non-void function
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: At top level:
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:72: warning: property 'conn' requires method '-conn' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:72: warning: property 'conn' requires the method 'setConn:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@76"Compile /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#294643577#0(3815"In file included from /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:9:/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h:25: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h:25: warning: assign attribute (default) not appropriate for non-gc object property 'connBtn'/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate applicationDidFinishLaunching:]':/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:22: warning: no '-initWithIF:' method found/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:22: warning: (Messages without a matching method signature/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:22: warning: will be assumed to return 'id' and accept/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:22: warning: '...' as arguments.)/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate buttonConnect:]':/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:36: warning: 'ClinetConnector' may not respond to '-Connect:port:'/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate buttonSend:]':/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:41: warning: format not a string literal and no format arguments/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:42: warning: 'ClinetConnector' may not respond to '-Send:'/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate buttonDisconnect:]':/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:47: warning: 'ClinetConnector' may not respond to '-Disconnect'/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate OnReceive:]':/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:53: warning: format not a string literal and no format arguments/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:56: warning: format not a string literal and no format arguments/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:58: warning: control reaches end of non-void function/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate OnError:]':/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:60: warning: format not a string literal and no format arguments/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:61: warning: control reaches end of non-void function/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate OnConnected]':/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:66: warning: control reaches end of non-void function/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: In function '-[SocketClientAppDelegate OnDisconnect]':/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:70: warning: control reaches end of non-void function/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m: At top level:/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:72: warning: property 'conn' requires method '-conn' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m:72: warning: property 'conn' requires the method 'setConn:' to be defined - use @synthesize, @dynamic or provide a method implementation18(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed294643576#94#160#2(7@90"In file included from /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#18446744073709551615#0#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#9#0#9#0#0"0(13@149"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h294643576#18446744073709551615#0#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h294643363#25#0#25#0#0"0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h294643363#25#0#25#0#0"0(22@79"Assign attribute (default) not appropriate for non-gc object property 'connBtn'294643576#254#162#2(7@90"In file included from /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#18446744073709551615#0#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#9#0#9#0#0"0(13@151"Assign attribute (default) not appropriate for non-gc object property 'connBtn' in /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h294643576#18446744073709551615#0#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h294643363#25#0#25#0#0"0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.h294643363#25#0#25#0#0"0(22@30"No '-initWithIF:' method found294643576#559#113#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#22#0#22#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)294643576#672#128#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#22#0#22#0#0"0(22@53"'ClinetConnector' may not respond to '-Connect:port:'294643576#1154#136#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#36#0#36#0#26"'*' may not respond to '*'0(22@51"Format not a string literal and no format arguments294643576#1414#134#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#41#0#41#0#51"format not a string literal and no format arguments0(22@45"'ClinetConnector' may not respond to '-Send:'294643576#1548#128#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#42#0#42#0#26"'*' may not respond to '*'0(22@50"'ClinetConnector' may not respond to '-Disconnect'294643576#1806#133#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#47#0#47#0#26"'*' may not respond to '*'0(22@51"Format not a string literal and no format arguments294643576#2062#134#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#53#0#53#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments294643576#2196#134#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#56#0#56#0#51"format not a string literal and no format arguments0(22@40"Control reaches end of non-void function294643576#2330#123#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#58#0#58#0#40"control reaches end of non-void function0(22@51"Format not a string literal and no format arguments294643576#2574#134#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#60#0#60#0#51"format not a string literal and no format arguments0(22@40"Control reaches end of non-void function294643576#2708#123#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#61#0#61#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function294643576#2955#123#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#66#0#66#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function294643576#3203#123#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#70#0#70#0#40"control reaches end of non-void function0(23@13"At top level:294643576#3326#84#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#0#0#0#0#0"0(22@116"Property 'conn' requires method '-conn' to be defined - use @synthesize, @dynamic or provide a method implementation294643576#3410#199#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#72#0#72#0#0"0(22@123"Property 'conn' requires the method 'setConn:' to be defined - use @synthesize, @dynamic or provide a method implementation294643576#3609#206#0(6@68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m294643576#72#0#72#0#0"0(0#0#68"/Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m4300885448#1961"    cd /Users/skan/Documents/SocketClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-generated-files.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-own-target-headers.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-all-target-headers.hmap -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-project-headers.hmap -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -I/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/include -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources/i386 -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources -include /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-fwjopjuqxxpnemdqsgxifnppkush/SocketClient_Prefix.pch -c /Users/skan/Documents/SocketClient/Classes/SocketClientAppDelegate.m -o /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/SocketClientAppDelegate.o0#
+
+CCompileC build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/main.o /Users/skan/Documents/SocketClient/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294554841.574518
+e294554841.625019
+r1
+xCompileC
+xbuild/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/main.o
+x/Users/skan/Documents/SocketClient/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/skan/Documents/SocketClient/main.m294554841#294554841#0(0"0(0#0#41"/Users/skan/Documents/SocketClient/main.m4300885448#1915"    cd /Users/skan/Documents/SocketClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-generated-files.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-own-target-headers.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-all-target-headers.hmap -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-project-headers.hmap -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -I/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/include -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources/i386 -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources -include /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-fwjopjuqxxpnemdqsgxifnppkush/SocketClient_Prefix.pch -c /Users/skan/Documents/SocketClient/main.m -o /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/skan/Documents/SocketClient/MainWindow.xib
+s294644137.533391
+e294644137.880650
+r1
+xCompileXIB
+x/Users/skan/Documents/SocketClient/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib294644137#294644137#0(0"0(0#0#49"/Users/skan/Documents/SocketClient/MainWindow.xib4300885448#475"    cd /Users/skan/Documents/SocketClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/MainWindow.nib /Users/skan/Documents/SocketClient/MainWindow.xib0#
+
+CGenerateDSYMFile /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app.dSYM /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient
+s294644138.023324
+e294644138.034693
+r1
+xGenerateDSYMFile
+x/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app.dSYM
+x/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/SocketClient.app.dSYM build/Debug-iphonesimulator/SocketClient.app/SocketClient294644138#294644138#0(0"0(0#0#92"/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient4300885448#386"    cd /Users/skan/Documents/SocketClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient -o /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app.dSYM0#
+
+CLd /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient normal i386
+s294644138.003912
+e294644138.023229
+r1
+xLd
+x/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient
+xnormal
+xi386
+lSLF07#2@97"Link /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient294644138#294644138#0(0"0(0#0#0"4300885448#890"    cd /Users/skan/Documents/SocketClient    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -filelist /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/Objects-normal/i386/SocketClient.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -o /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/SocketClient0#
+
+CProcessInfoPlistFile /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/Info.plist SocketClient-Info.plist
+s294554840.505457
+e294554840.510297
+r1
+xProcessInfoPlistFile
+x/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/Info.plist
+xSocketClient-Info.plist
+lSLF07#2@31"Process SocketClient-Info.plist294554840#294554840#0(0"0(0#0#58"/Users/skan/Documents/SocketClient/SocketClient-Info.plist4300885448#482"    cd /Users/skan/Documents/SocketClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SocketClient-Info.plist -genpkginfo /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app/Info.plist0#
+
+CProcessPCH /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-fwjopjuqxxpnemdqsgxifnppkush/SocketClient_Prefix.pch.gch SocketClient_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s294554840.826415
+e294554841.574421
+r1
+xProcessPCH
+x/var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-fwjopjuqxxpnemdqsgxifnppkush/SocketClient_Prefix.pch.gch
+xSocketClient_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile SocketClient_Prefix.pch294554840#294554841#0(0"0(0#0#58"/Users/skan/Documents/SocketClient/SocketClient_Prefix.pch4300885448#1806"    cd /Users/skan/Documents/SocketClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-generated-files.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-own-target-headers.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-all-target-headers.hmap -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-project-headers.hmap -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -I/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/include -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources/i386 -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources -c /Users/skan/Documents/SocketClient/SocketClient_Prefix.pch -o /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-fwjopjuqxxpnemdqsgxifnppkush/SocketClient_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-hghlenehgpnozdfdavsrlzkqxzdu/SocketClient_Prefix.pch.pth SocketClient_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s294576717.769687
+e294576718.090251
+r1
+xProcessPCH
+x/var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-hghlenehgpnozdfdavsrlzkqxzdu/SocketClient_Prefix.pch.pth
+xSocketClient_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@34"Precompile SocketClient_Prefix.pch294576717#294576718#0(0"0(0#0#58"/Users/skan/Documents/SocketClient/SocketClient_Prefix.pch4300885448#1797"    cd /Users/skan/Documents/SocketClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-generated-files.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-own-target-headers.hmap -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-all-target-headers.hmap -iquote /Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/SocketClient-project-headers.hmap -F/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator -I/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/include -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources/i386 -I/Users/skan/Documents/SocketClient/build/SocketClient.build/Debug-iphonesimulator/SocketClient.build/DerivedSources -c /Users/skan/Documents/SocketClient/SocketClient_Prefix.pch -o /var/folders/df/dfNybVhRHNaBo8-IwYF6kU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SocketClient_Prefix-hghlenehgpnozdfdavsrlzkqxzdu/SocketClient_Prefix.pch.pth0#
+
+CTouch /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app
+s294644138.034771
+e294644138.037074
+r1
+xTouch
+x/Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app
+lSLF07#2@85"Touch /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app294644138#294644138#0(0"0(0#0#0"4300885448#275"    cd /Users/skan/Documents/SocketClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/skan/Documents/SocketClient/build/Debug-iphonesimulator/SocketClient.app0#
+
